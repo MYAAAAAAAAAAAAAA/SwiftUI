@@ -16,6 +16,10 @@
 		5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */; };
 		5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */; };
 		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
+		DE296AAF2B07B08A0063B9B3 /* BookCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296AAE2B07B08A0063B9B3 /* BookCover.swift */; };
+		DE296AB12B07B0970063B9B3 /* SONG.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE296AB02B07B0970063B9B3 /* SONG.mp3 */; };
+		DE296AB32B07B0D70063B9B3 /* Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE296AB22B07B0D70063B9B3 /* Song.mp3 */; };
+		DE296AB72B07BD000063B9B3 /* gggh.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE296AB62B07BD000063B9B3 /* gggh.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
+		DE296AAE2B07B08A0063B9B3 /* BookCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCover.swift; sourceTree = "<group>"; };
+		DE296AB02B07B0970063B9B3 /* SONG.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SONG.mp3; path = "../../../SwiftUIStoryTemplate-main/SwiftUIStoryTemplate/SONG.mp3"; sourceTree = "<group>"; };
+		DE296AB22B07B0D70063B9B3 /* Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Song.mp3; sourceTree = "<group>"; };
+		DE296AB62B07BD000063B9B3 /* gggh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gggh.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 		5DE6F6632AFADF05004ABB4F = {
 			isa = PBXGroup;
 			children = (
+				DE296AB62B07BD000063B9B3 /* gggh.swift */,
 				5DE6F66E2AFADF05004ABB4F /* SwiftUIStoryTemplate */,
 				5DE6F66D2AFADF05004ABB4F /* Products */,
 			);
@@ -63,12 +72,14 @@
 			children = (
 				5DE6F66F2AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift */,
 				5DE6F6712AFADF05004ABB4F /* ContentView.swift */,
+				DE296AAE2B07B08A0063B9B3 /* BookCover.swift */,
 				5DE6F6872AFAE47A004ABB4F /* Chapter1 */,
 				5DE6F6882AFAE482004ABB4F /* Chapter2 */,
 				5DE6F6892AFAE48E004ABB4F /* Chapter3 */,
 				5DE6F68A2AFAE492004ABB4F /* Chapter4 */,
 				5DE6F68B2AFAE49B004ABB4F /* Chapter5 */,
 				5DE6F6732AFADF08004ABB4F /* Assets.xcassets */,
+				DE296AB22B07B0D70063B9B3 /* Song.mp3 */,
 				5DE6F6752AFADF08004ABB4F /* Preview Content */,
 			);
 			path = SwiftUIStoryTemplate;
@@ -77,6 +88,7 @@
 		5DE6F6752AFADF08004ABB4F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				DE296AB02B07B0970063B9B3 /* SONG.mp3 */,
 				5DE6F6762AFADF08004ABB4F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -180,6 +192,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE296AB12B07B0970063B9B3 /* SONG.mp3 in Resources */,
+				DE296AB32B07B0D70063B9B3 /* Song.mp3 in Resources */,
 				5DE6F6772AFADF08004ABB4F /* Preview Assets.xcassets in Resources */,
 				5DE6F6742AFADF08004ABB4F /* Assets.xcassets in Resources */,
 			);
@@ -196,9 +210,11 @@
 				5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */,
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
+				DE296AAF2B07B08A0063B9B3 /* BookCover.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
 				5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */,
+				DE296AB72B07BD000063B9B3 /* gggh.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
